@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Fraunces:opsz,wght@9..144,500&family=IBM+Plex+Sans:wght@700&family=Inter:wght@600;700&family=Montserrat:wght@500&family=Red+Hat+Display:wght@900&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Epilogue', sans-serif;
+  background: #FAF8F6;
+  justify-content: center;
+  display: flex;
+  color:#172339;
+}
+main{
+  width: 77%;
+  border: 15px solid red;
+  margin-top: 3.12rem;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+  
+}
+.logo{
+  width: 5rem;
+  height: 1.55rem;
+
+}
+.white_btn{
+  width: 13.6875rem;
+  height: 3.5rem;
+
+}
+.first_section{
+
+  margin-top: 5rem;
+  height: 37.5rem;
+  /* border: 5px solid blue; */
+  display: flex;
+}
+.leftside{
+  /* width:57%; */
+  
+  width: 39.6875rem;
+  height: 25.3125rem;
+  /* border: 5px solid black; */
+  top: 6.44rem;
+  z-index: 1;
+}
+.line1{
+  top: 2.58rem;
+  width: 17.9375rem;
+  height: 2.25rem;
+  left:-21.75rem;
+}
+h1{
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 4.875rem; 
+  letter-spacing: -0.0625rem;
+  height: 9.75rem;
+  }
+  
+.body1{
+  width: 21.875rem;
+  /* border: 5px solid black; */
+  color: #49566D;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 2rem; 
+  letter-spacing: 0.00625rem;
+  top: 2.5rem;
+  
+}
+.gradient{
+  width: 21.875rem;
+  border-radius: 0.9375rem;
+  /* border: 5px solid black; */
+  left: -6rem;
+  z-index: -1;
+  background-image: url(./assets/image-hero-portrait.png) ;
+
+}
+.rightside{
+  width: 11.875rem;
+  border: 5px solid black;
+  color: #172339;
+  /* margin-left:6rem */
+
+}
+span{
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+}
